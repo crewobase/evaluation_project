@@ -1,0 +1,220 @@
+header {
+  background-image: url(download.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body {
+  display: block;
+}
+
+.nav-1 {
+  list-style: none;
+  display text-wrap-style: line;
+}
+
+.animation-div :nth-child(2) {
+  font-size: smaller;
+  padding-right: 1%;
+}
+
+.nav-1 img {
+  width: 20vh;
+}
+
+.heading {
+  font-size: medium;
+  width: 50%;
+}
+
+.section-1 :nth-child(3) {
+  display: block;
+  font-size: medium;
+  width: 50%;
+  margin-top: -5%;
+}
+
+.section-2 {
+  background-image: url(download.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.who-we-are :nth-child(2) {
+  font-size: large;
+  width: 70%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.who-are-we {
+  color: blue;
+  font-size: smaller;
+  margin-bottom: -5%;
+  margin-top: 5%;
+}
+
+.mid-image {
+  margin-top: 5%;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 5vh;
+}
+
+.section-2 :nth-child(1) {
+  display: block;
+  width: 50%;
+}
+
+.section-2 :nth-child(2) {
+  width: 70%;
+}
+
+.number-count :nth-child(1) {
+  color: blue;
+  size: larger;
+  font-size: larger;
+  font-style: bold;
+}
+
+.number-count :nth-child(3) {
+  color: blue;
+  size: larger;
+  font-size: larger;
+  font-style: bold;
+}
+
+.number-count :nth-child(5) {
+  color: blue;
+  size: larger;
+  font-size: larger;
+  font-style: bold;
+}
+
+.animation-for :nth-child(1) {
+  display: block;
+  width: 70%;
+}
+
+.animation-for :nth-child(2) {
+  width: 60%;
+  display: block;
+}
+
+.table-1 {
+  justify-content: space-between;
+}
+
+.image-tag {
+  display: block;
+  justify-content: space-around
+}
+
+.image-tag img {
+  width: 15vh;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.image-tag :nth-child(3) {
+  display: block;
+  width: 60%;
+}
+
+.image-tag :nth-child(7) {
+  display: block;
+  width: 60%;
+}
+
+.image-tag :nth-child(11) {
+  display: block;
+  width: 60%;
+}
+
+.table-2-image img {
+  width: 15vh;
+  display: block;
+}
+
+.table-2-image :nth-child(3) {
+  width: 60%;
+  display: block;
+}
+
+.table-2-image :nth-child(7) {
+  width: 60%;
+  display: block;
+}
+
+.table-2-image :nth-child(11) {
+  width: 60%;
+  display: block;
+}
+
+.section-3 :nth-child(1) {
+  display: block;
+  color: blue;
+  font-size: smaller;
+  font-style: bold;
+}
+
+.section-3 {
+  width: 60%;
+  display: block;
+}
+
+.section-3 img {
+  width: 15vh;
+  display: block;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: lightblue;
+    display: block;
+  }
+
+  header {
+    background-image: url(download.jpeg);
+
+  }
+
+  .section-1 {
+    display: block;
+  }
+
+  .who-are-we {
+    text-size-adjust: smaller;
+    color: blue;
+  }
+
+  .logo img {
+    min-width: 100%;
+    height: auto;
+  }
+
+  .section-2 {
+    background-image: url(doll.jpeg);
+  }
+
+  .nav-1 {
+    display text-wrap-style: line;
+  }
+
+  .number-count {
+    font-size: larger;
+    color: blue;
+  }
+
+
+
+}
